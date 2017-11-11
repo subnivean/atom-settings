@@ -1,0 +1,31 @@
+"*":
+  "atom-minimap-titles":
+    font: "ANSI Shadow"
+  core:
+    automaticallyUpdate: false
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "minimap"
+      "minimap-titles"
+      "wrap-guide"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 10
+    lineHeight: 1.4
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "3382bc21-9490-49d0-b718-23315a2ca1e1"
+  minimap:
+    moveCursorOnMinimapClick: true
+    plugins:
+      codeglance: true
+      codeglanceDecorationsZIndex: 0
+  "vim-mode-plus":
+    findAcrossLines: true
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
+  welcome:
+    showOnStartup: false
+".klartext.nc-code.text":
+  editor:
+    showInvisibles: true

@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-18824-1jub7pj.19r8hestt9\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-18824-1jub7pj.19r8hestt9\\package.tgz",
+        "spec": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-18824-1jub7pj.19r8hestt9\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\210008~1\\AppData\\Local\\Temp\\apm-install-dir-117918-18824-ntdwi6.hjtyrmgqfr"
+    ]
+  ],
+  "_from": "..\\d-117918-18824-1jub7pj.19r8hestt9\\package.tgz",
+  "_id": "language-klartext@0.5.1",
+  "_inCache": true,
+  "_location": "/language-klartext",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-18824-1jub7pj.19r8hestt9\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-18824-1jub7pj.19r8hestt9\\package.tgz",
+    "spec": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-18824-1jub7pj.19r8hestt9\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117918-18824-1jub7pj.19r8hestt9\\package.tgz",
+  "_shasum": "08c6b356ef85e833daaf5d19cd8b6d5a344f2d97",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-18824-1jub7pj.19r8hestt9\\package.tgz",
+  "_where": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\apm-install-dir-117918-18824-ntdwi6.hjtyrmgqfr",
+  "bugs": {
+    "url": "https://github.com/atom/language-klartext/issues"
+  },
+  "dependencies": {},
+  "description": "Klartext an G-Code support in Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "http://atom.github.io/language-klartext",
+  "license": "MIT",
+  "main": "./lib/nc-code",
+  "name": "language-klartext",
+  "optionalDependencies": {},
+  "readme": "# language-klartext",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drunsinn/language-klartext.git"
+  },
+  "version": "0.5.1"
+}

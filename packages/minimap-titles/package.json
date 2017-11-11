@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-12812-dptywi.rxyg1a714i\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-12812-dptywi.rxyg1a714i\\package.tgz",
+        "spec": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-12812-dptywi.rxyg1a714i\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\210008~1\\AppData\\Local\\Temp\\apm-install-dir-117918-12812-rx2tfy.o8619ssjor"
+    ]
+  ],
+  "_from": "..\\d-117918-12812-dptywi.rxyg1a714i\\package.tgz",
+  "_id": "minimap-titles@1.12.0",
+  "_inCache": true,
+  "_location": "/minimap-titles",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-12812-dptywi.rxyg1a714i\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-12812-dptywi.rxyg1a714i\\package.tgz",
+    "spec": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-12812-dptywi.rxyg1a714i\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-117918-12812-dptywi.rxyg1a714i\\package.tgz",
+  "_shasum": "64ede02175303773da7cd9433195ff974b9d8196",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\d-117918-12812-dptywi.rxyg1a714i\\package.tgz",
+  "_where": "C:\\Users\\210008~1\\AppData\\Local\\Temp\\apm-install-dir-117918-12812-rx2tfy.o8619ssjor",
+  "activationCommands": {
+    "atom-workspace": "minimap-titles:convert"
+  },
+  "bugs": {
+    "url": "https://github.com/masavini/atom-minimap-titles/issues"
+  },
+  "dependencies": {
+    "figlet": "1.1.1"
+  },
+  "description": "Atom package to convert the selected text to ASCII art using FIGlet and then comment it.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/masavini/atom-minimap-titles#readme",
+  "keywords": [
+    "figlet",
+    "ascii art",
+    "figfont",
+    "comment"
+  ],
+  "license": "MIT",
+  "main": "./lib/minimap-titles",
+  "name": "minimap-titles",
+  "optionalDependencies": {},
+  "readme": "# Minimap Titles\n[Atom](https://atom.io/) package to convert the selected text to ASCII art using [FIGlet](http://www.figlet.org/) and then comment it.\n\nThe chosen figlet font (ANSI Shadow) is perfect for minimap visualization. Commenting supports several file extensions:\n- js\n- sh, bash\n- yml, yaml\n- coffee\n- html\n- md\n- php\n- vb\n- njk\n- py\n- tex, cls\n\nFiles with no extension will be treated as Shell scripts.\n\nSelect some text to convert something like this:\n\n```\nhello world\n```\n\ninto something like this:\n\n```\n# ██   ██ ███████ ██      ██       ██████      ██     ██  ██████  ██████  ██      ██████  \n# ██   ██ ██      ██      ██      ██    ██     ██     ██ ██    ██ ██   ██ ██      ██   ██\n# ███████ █████   ██      ██      ██    ██     ██  █  ██ ██    ██ ██████  ██      ██   ██\n# ██   ██ ██      ██      ██      ██    ██     ██ ███ ██ ██    ██ ██   ██ ██      ██   ██\n# ██   ██ ███████ ███████ ███████  ██████       ███ ███   ██████  ██   ██ ███████ ██████\n```\n\nyou can also `Toggle Comment Borders` to put a border around the text to add more distinction in the minimap:\n\n```\n###############################################################################\n# ██   ██ ███████ ██      ██       ██████      ██     ██  ██████  ██████  ██      ██████\n# ██   ██ ██      ██      ██      ██    ██     ██     ██ ██    ██ ██   ██ ██      ██   ██\n# ███████ █████   ██      ██      ██    ██     ██  █  ██ ██    ██ ██████  ██      ██   ██\n# ██   ██ ██      ██      ██      ██    ██     ██ ███ ██ ██    ██ ██   ██ ██      ██   ██\n# ██   ██ ███████ ███████ ███████  ██████       ███ ███   ██████  ██   ██ ███████ ██████\n###############################################################################\n```\n\nNote that `Toggle Comment Borders` determines border size based on your editors preferred line length, Atom's default is 80 as shown above.\n\nThe difference is slight and completely based on user preference:\n\n<img src=\"http://i.imgur.com/xBCmrSx.png\" alt=\"Border vs. No Border Example\">\n\n## Usage\nTo convert text, select the text you wish to convert, and do **any** of the following:\n- Press `ctrl-shift-del` **or**\n- Select `Minimap Titles: Convert` in the [command palette](https://atom.io/docs/latest/getting-started-atom-basics#command-palette) **or**\n- Select _Packages_ -> _Minimap Titles_ -> _Convert_ from the main menu **or**\n- Right click on the selected text, and select _Minimap Titles: Convert_ from the context menu\n\nTo create comment borders around text to help distinguish sections in the minimap do the following:\n- Select _Packages_ -> _Minimap Titles_ -> _Toggle Comment Borders_ from the main menu\n- Run the Convert command on your text as detailed above\n\nTo set a custom font, set `atom-minimap-titles.font` in your atom config file, as such:\n```\n\"atom-minimap-titles\":\n  font: \"Colossal\"\n```\nSee existing fonts in the [figlet font database](http://www.figlet.org/fontdb.cgi).\n\n## Credits\nBased on the following packages:\n- [atom-figletify](https://github.com/robatron/atom-figletify)\n- [block-comment](https://github.com/RayKwon/atom-block-comment/)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masavini/atom-minimap-titles.git"
+  },
+  "version": "1.12.0"
+}
